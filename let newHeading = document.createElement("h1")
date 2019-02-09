@@ -1,0 +1,15 @@
+let about = document.getElementById("About");
+let bodyArray = document.getElementById("BODY");
+let body = bodyArray [0]
+
+document.addEventListener("click", whenClicked);
+about.addEventListener("mouseover", whenHovered);
+about.addEventListener("mouseout", whenDoneHovering);
+
+function whenClicked() {
+	let newHeading = document.createElement("h1")
+	newHeading.innerHTML = "FUN!";
+	newHeading.style.color = "red";
+	newHeading.style.fontSize = "48px";
+	about.appendChild(newHeading)
+}
