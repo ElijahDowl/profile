@@ -13,3 +13,4 @@ function whenClicked() {
 	newHeading.style.fontSize = "48px";
 	about.appendChild(newHeading)
 }
+
